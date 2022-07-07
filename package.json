@@ -1,0 +1,17 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "Este projeto tem a finalidade de ser vir como uma ferramenta para a técnica Pomodoro. Um cronômetro com para o Pomodoro",
+  "main": "script.js",
+  "scripts": {
+    "test:jest": "jest",
+    "test:cy": ""
+  },
+  "keywords": [],
+  "author": "Edimar dos Santos Resende",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "jest": "^28.1.2"
+  }
+}
