@@ -1,3 +1,4 @@
+/* Variáveis */
 :root {
   --bg-body: #34283d;
   --color-text-1: #c600ff;
@@ -9,6 +10,7 @@
   padding: 0;
 }
 
+/* TAGs */
 body {
   align-items: center;
   background-color: var(--bg-body);
@@ -29,3 +31,5 @@ main section {
   height: 100%;
   width: 100%;
 }
+
+/* Classes */
