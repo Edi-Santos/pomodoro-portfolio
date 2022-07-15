@@ -1,6 +1,7 @@
 /* Variáveis */
 :root {
   --bg-body: #34283d;
+  --bg-clock: #211927;
   --color-text-1: #c600ff;
   --color-text-2: #f3f3f3;
 }
@@ -33,3 +34,15 @@ main section {
 }
 
 /* Classes */
+.clock-container {
+  align-items: center;
+  background-color: var(--bg-clock);
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  height: 17rem;
+  justify-content: center;
+  width: 17rem;
+}
