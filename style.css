@@ -20,6 +20,13 @@ body {
   width: 100vw;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+
 main section {
   align-items: center;
   display: flex;
