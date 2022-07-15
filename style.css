@@ -30,6 +30,12 @@ main section {
 }
 
 /* Classes */
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3.2rem;
+  margin: 5% 0;
+}
+
 .clock-container {
   align-items: center;
   background-color: var(--bg-clock);
