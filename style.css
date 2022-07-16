@@ -27,6 +27,12 @@ header {
   padding: 1%;
 }
 
+header img {
+  filter: invert(80%) sepia(25%);
+  margin-left: 1%;
+  width: 3%;
+}
+
 nav button {
   background-color: var(--bg-body);
   border: none;
