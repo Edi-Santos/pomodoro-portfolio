@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2%;
-  padding: 1%;
+  padding: 1.5%;
 }
 
 header img {
@@ -33,7 +33,7 @@ header img {
   width: 3%;
 }
 
-nav button {
+nav a {
   background-color: var(--bg-body);
   border: none;
   border-radius: 10px;
@@ -42,9 +42,10 @@ nav button {
   font-size: 1.2rem;
   margin-left: 2rem;
   padding: 0.6rem 1rem;
+  text-decoration: none;
 }
 
-nav button:hover {
+nav a:hover {
   background-color: var(--color-text-2);
   color: var(--bg-body);
   cursor: pointer;
