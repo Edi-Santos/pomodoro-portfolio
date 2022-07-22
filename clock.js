@@ -1,6 +1,6 @@
 const clock = document.querySelector('.clock');
 
-function timer() {
+function clock() {
   let hours = new Date().getHours();
   let minutes = new Date().getMinutes();
   let seconds = new Date().getSeconds();
@@ -12,4 +12,4 @@ function timer() {
   clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
-setInterval(timer, 1000);
+setInterval(clock, 1000);
