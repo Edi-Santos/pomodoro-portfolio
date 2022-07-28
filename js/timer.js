@@ -1,6 +1,7 @@
 let hh = document.querySelector('.hh');
 let mm = document.querySelector('.mm');
 let ss = document.querySelector('.ss');
+const backToZero = document.querySelector('.back-to-zero');
 const start = document.querySelector('.start');
 const stop = document.querySelector('.stop');
 
@@ -38,4 +39,12 @@ start.addEventListener('click', () => {
   const interval = setInterval(() => timer(), 1000);
 
   stop.addEventListener('click', () => clearInterval(interval));
+  
+  backToZero.addEventListener('click', () => {
+    clearInterval(interval);
+
+    hh.value = '00';
+    mm.value = '00';
+    ss.value = '00';
+  });
 });
