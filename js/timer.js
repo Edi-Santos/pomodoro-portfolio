@@ -3,9 +3,9 @@ let mm = document.querySelector('.mm');
 let ss = document.querySelector('.ss');
 const start = document.querySelector('.start');
 
-hh.value = 0;
-mm.value = 0;
-ss.value = 0;
+hh.value = '00';
+mm.value = '00';
+ss.value = '00';
 
 
 function timer() {
