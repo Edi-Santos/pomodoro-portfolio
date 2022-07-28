@@ -1,0 +1,9 @@
+input {
+  background-color: var(--bg-clock);
+  border: none;
+  color: var(--color-text-2);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  width: 3.5rem;
+}
