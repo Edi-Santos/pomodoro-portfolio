@@ -1,4 +1,5 @@
 const workTimer = document.querySelector('.work-timer');
+const restart = document.querySelector('.restart');
 const start = document.querySelector('.start');
 const stop = document.querySelector('.stop');
 
@@ -22,4 +23,10 @@ start.addEventListener('click', () => {
   const interval = setInterval(() => workTime(), 1000);
 
   stop.addEventListener('click', () => clearInterval(interval));
+
+  restart.addEventListener('click', () => {
+    clearInterval(interval);
+
+    workTimer.innerText = '25:00';
+  });
 })
