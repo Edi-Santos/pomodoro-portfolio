@@ -57,6 +57,7 @@ start.addEventListener('click', () => {
   restart.addEventListener('click', () => {
     clearInterval(interval);
 
+    restTimerTitle.innerText = '';
     restTimer.innerText = '';
     workTimerTitle.innerText = 'TRABALHO';
     workTimer.innerText = '25:00';
