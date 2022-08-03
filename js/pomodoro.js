@@ -18,6 +18,7 @@ function restTime() {
 
   if (restSec >= 0 && restSec < 60 && restMin >= 0) {
     if (restSec === 0 && restMin === 0) return restTimer.innerText = '0:0';
+
     if (restSec === 0 && restMin > 0) {
       restSec = 59;
       restMin -= 1;
