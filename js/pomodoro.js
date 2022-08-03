@@ -1,4 +1,6 @@
+const workTimerTitle = document.querySelector('.work-timer-title');
 const workTimer = document.querySelector('.work-timer');
+const restTimerTitle = document.querySelector('.rest-timer-title');
 const restTimer = document.querySelector('.rest-timer');
 const restart = document.querySelector('.restart');
 const start = document.querySelector('.start');
@@ -10,6 +12,8 @@ let seconds = 00;
 let restSec = 00;
 
 function restTime() {
+  workTimerTitle.innerText = '';
+  restTimerTitle.innerText = 'DESCANSO';
   restTimer.innerText = '5:00';
 
   if (restSec >= 0 && restSec < 60 && restMin >= 0) {
@@ -53,6 +57,7 @@ start.addEventListener('click', () => {
     clearInterval(interval);
 
     restTimer.innerText = '';
+    workTimerTitle.innerText = 'TRABALHO';
     workTimer.innerText = '25:00';
   });
 })
