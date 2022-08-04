@@ -59,4 +59,8 @@ describe('Testando página de Cronômetro', () => {
     cy.get(CLASS_STOP).click();
     cy.get(CLASS_TIME).children('.ss').should('have.value', 9);
   })
+
+  it('14 - testa se há um botão para zerar a contagem', () => {
+    cy.get(CLASS_BACK_TO_ZERO).should('exist');
+  });
 });
