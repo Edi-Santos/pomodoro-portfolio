@@ -3,6 +3,7 @@ const HEADER_NAV = 'header nav';
 const MAIN = 'main';
 const CLASS_TITLE = '.title';
 const CLASS_TIME = '.time';
+const CLASS_START = '.start';
 
 describe('Testando página de Cronômetro', () => {
   it('5 - testa se há um <header />', () => {
@@ -36,5 +37,9 @@ describe('Testando página de Cronômetro', () => {
     cy.get(CLASS_TIME).children('.hh').type('01')
     cy.get(CLASS_TIME).children('.mm').type('30');
     cy.get(CLASS_TIME).children('.ss').type('10');
+  });
+
+  it('10 - testa se há um botão para começar a contagem', () => {
+    cy.get(CLASS_START).should('exist');
   });
 });
