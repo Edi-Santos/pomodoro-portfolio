@@ -1,6 +1,8 @@
 const HEADER = 'header';
 const HEADER_NAV = 'header nav';
 const MAIN = 'main';
+const CLASS_TITLE = '.title';
+const CLASS_TIME = '.time';
 
 describe('Testando página de Cronômetro', () => {
   it('5 - testa se há um <header />', () => {
@@ -15,5 +17,10 @@ describe('Testando página de Cronômetro', () => {
 
   it('7 - Testa se há um <main />', () => {
     cy.get(MAIN).should('exist');
+  });
+
+  it('8 - testa se há um título e um espaço para colocar tempo no cronômetro', () => {
+    cy.get(CLASS_TITLE).should('exist');
+    cy.get(CLASS_TIME).should('exist');
   });
 });
