@@ -52,7 +52,9 @@ describe('Testando página de Cronômetro', () => {
 
   it('12 - testa se há um botão para pausar a contagem', () => {
     cy.get(CLASS_STOP).click();
-
-    cy.get(CLASS_TIME).children('.ss').should('have.value', 9);
   });
+  
+  it('13 - testa se o botão pausa a contagem', () => {
+    cy.get(CLASS_TIME).children('.ss').should('have.value', 9);
+  })
 });
