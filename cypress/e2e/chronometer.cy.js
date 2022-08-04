@@ -42,4 +42,10 @@ describe('Testando página de Cronômetro', () => {
   it('10 - testa se há um botão para começar a contagem', () => {
     cy.get(CLASS_START).should('exist');
   });
+
+  it('11 - testa se o botão inicia a contagem', () => {
+    cy.get(CLASS_START).click();
+
+    cy.get(CLASS_TIME).children('.ss').should('have.value', 9)
+  });
 });
