@@ -63,4 +63,12 @@ describe('Testando página de Cronômetro', () => {
   it('14 - testa se há um botão para zerar a contagem', () => {
     cy.get(CLASS_BACK_TO_ZERO).should('exist');
   });
+
+  it('15 - testa se o botão zera a contagem', () => {
+    cy.get(CLASS_BACK_TO_ZERO).click();
+    
+    cy.get(CLASS_TIME).children('.hh').should('have.value', '00');
+    cy.get(CLASS_TIME).children('.mm').should('have.value', '00');
+    cy.get(CLASS_TIME).children('.ss').should('have.value', '00');
+  });
 });
