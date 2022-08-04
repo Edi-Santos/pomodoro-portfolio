@@ -1,6 +1,8 @@
 const HEADER = 'header';
 const HEADER_NAV = 'header nav';
 const MAIN = 'main';
+const CLASS_TITLE = '.title';
+const CLASS_CLOCK = '.clock';
 
 describe('Testando página de Relógio', () => {
   it('1 - testa se há um <header />', () => {
@@ -15,6 +17,11 @@ describe('Testando página de Relógio', () => {
 
   it('3 - Testa se há um <main />', () => {
     cy.get(MAIN).should('exist');
+  });
+
+  it('4 - Testa se há um título e um espaço para o relógio', () => {
+    cy.get(CLASS_TITLE).should('exist');
+    cy.get(CLASS_CLOCK).should('exist');
   });
 });
   
