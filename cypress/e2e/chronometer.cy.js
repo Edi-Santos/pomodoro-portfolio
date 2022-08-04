@@ -4,6 +4,7 @@ const MAIN = 'main';
 const CLASS_TITLE = '.title';
 const CLASS_TIME = '.time';
 const CLASS_START = '.start';
+const CLASS_STOP = '.stop';
 
 describe('Testando página de Cronômetro', () => {
   it('5 - testa se há um <header />', () => {
@@ -47,5 +48,11 @@ describe('Testando página de Cronômetro', () => {
     cy.get(CLASS_START).click();
 
     cy.get(CLASS_TIME).children('.ss').should('have.value', 9)
+  });
+
+  it('12 - testa se há um botão para pausar a contagem', () => {
+    cy.get(CLASS_STOP).click();
+
+    cy.get(CLASS_TIME).children('.ss').should('have.value', 9);
   });
 });
