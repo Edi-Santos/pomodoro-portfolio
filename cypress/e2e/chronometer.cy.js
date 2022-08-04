@@ -23,4 +23,18 @@ describe('Testando página de Cronômetro', () => {
     cy.get(CLASS_TITLE).should('exist');
     cy.get(CLASS_TIME).should('exist');
   });
+
+  it('9 - testa se é possível adicionar horas, minutos e segundos ao cronômetro', () => {
+    cy.get(CLASS_TIME).children('.hh').should('have.value', '00');
+    cy.get(CLASS_TIME).children('.mm').should('have.value', '00');
+    cy.get(CLASS_TIME).children('.ss').should('have.value', '00');
+
+    cy.get(CLASS_TIME).children('.hh').clear();
+    cy.get(CLASS_TIME).children('.mm').clear();
+    cy.get(CLASS_TIME).children('.ss').clear();
+
+    cy.get(CLASS_TIME).children('.hh').type('01')
+    cy.get(CLASS_TIME).children('.mm').type('30');
+    cy.get(CLASS_TIME).children('.ss').type('10');
+  });
 });
