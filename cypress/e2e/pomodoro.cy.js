@@ -3,6 +3,7 @@
 const HEADER = 'header';
 const HEADER_NAV = 'header nav';
 const MAIN = 'main';
+const CLASS_TITLE = '.title';
 
 describe('Testa página Pomodoro', () => {
   before(() => {
@@ -20,5 +21,10 @@ describe('Testa página Pomodoro', () => {
 
   it('18 - testa se há um <main />', () => {
     cy.get(MAIN).should('exist');
+  });
+
+  it('19 - testa se há um título', () => {
+    cy.get(CLASS_TITLE).should('exist');
+
   });
 });
