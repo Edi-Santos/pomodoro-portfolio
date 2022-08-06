@@ -61,5 +61,8 @@ start.addEventListener('click', () => {
     restTimer.innerText = '';
     workTimerTitle.innerText = 'TRABALHO';
     workTimer.innerText = '25:00';
+
+    minutes = 25;
+    seconds = 00;
   });
 })
