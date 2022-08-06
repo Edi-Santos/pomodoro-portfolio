@@ -4,6 +4,8 @@ const HEADER = 'header';
 const HEADER_NAV = 'header nav';
 const MAIN = 'main';
 const CLASS_TITLE = '.title';
+const CLASS_WORK_TIMER_TITLE = '.work-timer-title';
+const CLASS_WORK_TIMER = '.work-timer';
 
 describe('Testa página Pomodoro', () => {
   before(() => {
@@ -25,5 +27,12 @@ describe('Testa página Pomodoro', () => {
 
   it('19 - testa se há um título', () => {
     cy.get(CLASS_TITLE).should('exist');
+  });
+
+  it('20 - testa se há o subtítulo "TRABALHO" e a contagem iniciando em 25 minutos', () => {
+    cy.get(CLASS_WORK_TIMER_TITLE).should('exist');
+    cy.get(CLASS_WORK_TIMER_TITLE).should('have.text', 'TRABALHO');
+    cy.get(CLASS_WORK_TIMER).should('exist');
+    cy.get(CLASS_WORK_TIMER).should('have.text', '25:00');
   });
 });
