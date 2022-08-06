@@ -25,6 +25,5 @@ describe('Testa página Pomodoro', () => {
 
   it('19 - testa se há um título', () => {
     cy.get(CLASS_TITLE).should('exist');
-
   });
 });
