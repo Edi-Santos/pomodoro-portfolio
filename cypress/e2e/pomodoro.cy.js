@@ -2,6 +2,7 @@
 
 const HEADER = 'header';
 const HEADER_NAV = 'header nav';
+const MAIN = 'main';
 
 describe('Testa página Pomodoro', () => {
   before(() => {
@@ -15,5 +16,9 @@ describe('Testa página Pomodoro', () => {
   it('17 - testa se no <header /> há um <nav />, e se, na TAG <nav />, há 3 elementos filhos', () => {
     cy.get(HEADER_NAV).should('exist');
     cy.get(HEADER_NAV).children().should('have.length', 3);
+  });
+
+  it('18 - testa se há um <main />', () => {
+    cy.get(MAIN).should('exist');
   });
 });
