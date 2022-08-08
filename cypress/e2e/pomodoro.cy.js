@@ -8,6 +8,7 @@ const CLASS_WORK_TIMER_TITLE = '.work-timer-title';
 const CLASS_WORK_TIMER = '.work-timer';
 const CLASS_REST_TIMER_TITLE = '.rest-timer-title';
 const CLASS_REST_TIMER = '.rest-timer';
+const CLASS_START = '.start';
 
 describe('Testa página Pomodoro', () => {
   before(() => {
@@ -43,5 +44,11 @@ describe('Testa página Pomodoro', () => {
     cy.get(CLASS_REST_TIMER_TITLE).should('have.value', '');
     cy.get(CLASS_REST_TIMER).should('exist');
     cy.get(CLASS_REST_TIMER).should('have.value', '');
+  });
+
+  it('22 - testa se há um botão para iniciar e se ele inicia a contagem', () => {
+    cy.get(CLASS_START).should('exist');
+    cy.get(CLASS_START).click();
+    cy.get(CLASS_WORK_TIMER).should('have.text', '24:59');
   });
 });
