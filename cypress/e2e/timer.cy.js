@@ -7,7 +7,7 @@ const CLASS_START = '.start';
 const CLASS_STOP = '.stop';
 const CLASS_BACK_TO_ZERO = '.back-to-zero';
 
-describe('Testando página de Cronômetro', () => {
+describe('Testando página de Temporizador', () => {
   it('5 - testa se há um <header />', () => {
     cy.visit('http://127.0.0.1:5500/pages/timer/timer.html');
     cy.get(HEADER).should('exist');
@@ -22,12 +22,12 @@ describe('Testando página de Cronômetro', () => {
     cy.get(MAIN).should('exist');
   });
 
-  it('8 - testa se há um título e um espaço para colocar tempo no cronômetro', () => {
+  it('8 - testa se há um título e um espaço para colocar tempo do temporizador', () => {
     cy.get(CLASS_TITLE).should('exist');
     cy.get(CLASS_TIME).should('exist');
   });
 
-  it('9 - testa se é possível adicionar horas, minutos e segundos ao cronômetro', () => {
+  it('9 - testa se é possível adicionar horas, minutos e segundos ao temporizador', () => {
     cy.get(CLASS_TIME).children('.hh').should('have.value', '00');
     cy.get(CLASS_TIME).children('.mm').should('have.value', '00');
     cy.get(CLASS_TIME).children('.ss').should('have.value', '00');
