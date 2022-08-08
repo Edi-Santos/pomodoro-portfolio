@@ -6,6 +6,8 @@ const MAIN = 'main';
 const CLASS_TITLE = '.title';
 const CLASS_WORK_TIMER_TITLE = '.work-timer-title';
 const CLASS_WORK_TIMER = '.work-timer';
+const CLASS_REST_TIMER_TITLE = '.rest-timer-title';
+const CLASS_REST_TIMER = '.rest-timer';
 
 describe('Testa página Pomodoro', () => {
   before(() => {
@@ -34,5 +36,12 @@ describe('Testa página Pomodoro', () => {
     cy.get(CLASS_WORK_TIMER_TITLE).should('have.text', 'TRABALHO');
     cy.get(CLASS_WORK_TIMER).should('exist');
     cy.get(CLASS_WORK_TIMER).should('have.text', '25:00');
+  });
+
+  it('21 - testa se há espaço para o subtítulo "DESCANSO" e contagem do tempo de descanso', () => {
+    cy.get(CLASS_REST_TIMER_TITLE).should('exist');
+    cy.get(CLASS_REST_TIMER_TITLE).should('have.value', '');
+    cy.get(CLASS_REST_TIMER).should('exist');
+    cy.get(CLASS_REST_TIMER).should('have.value', '');
   });
 });
