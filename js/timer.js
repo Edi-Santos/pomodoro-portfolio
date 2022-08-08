@@ -14,6 +14,10 @@ function timer() {
   let hours = parseInt(hh.value);
   let minutes = parseInt(mm.value);
   let seconds = parseInt(ss.value);
+
+  if (seconds <= 1 && minutes === 0 && hours === 0) {
+    return ss.value = '00', mm.value = '00', hh.value = '00';
+  }
   
   if (seconds >= 0 && seconds <= 60) {
     seconds -= 1;
