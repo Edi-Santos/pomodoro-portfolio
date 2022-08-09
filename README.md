@@ -1,7 +1,6 @@
-# Bem Vindo ao Projeto My Google!!!
+# Bem Vindo ao Projeto Pomodoro!!!
 
-Este é o primeiro projeto com o propósito de ajudar aos iniciantes na programação a começarem a desenvolver um *__Portfólio__*. Também ajudará aos que
-desejam pegar novos projetos para praticar e se aperfeiçoarem, estendendo, consequentenmente, ainda mais o Portfólio. </br>
+Este é o terceiro projeto da iniciativa PorConta. Iniciativa que tem o propósito de ajudar aos novos programadores a começarem a desenvolver um Portfólio. Também ajudará aos que desejam pegar novos projetos para praticar e se aperfeiçoarem, estendendo, consequentenmente, ainda mais o Portfólio.
 Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no LinkedIn, mostrar para rescrutadores e tudo mais.
 
 >*__Obs__*.: __LEIA ATENTAMENTE TODO O `README` ANTES DE COMEÇAR O DESENVOLVIMENTO DO PROJETO, POIS NELE ESTÃO CONTIDAS TODAS AS INFORMAÇÕES NECESSÁRIAS PARA O DESENVOLVIMENTO DO PROJETO.__
@@ -31,7 +30,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
 - VS Code
 - NodeJS v14^
 
-Para este projeto você precisa ter instalado em sua máquina um editor de código (sugiro o VS Code pela sua simplicidade e leveza além
+Para este projeto você precisa ter instalado em sua máquina um editor de código (sugiro o VS Code pela sua simplicidade e leveza, além
 de extensões que facilitam muito o desenvolvimento) e o Node na versão 14.0.0 ou superior.
 
 Para saber qual versão do Node está rodando em sua máquina, abra o terminal e execute:
@@ -54,22 +53,19 @@ Você pode aprender mais sobre `NVM` <a href='https://github.com/nvm-sh/nvm'>aqu
 
 ### Sobre o Projeto
 
-Neste projeto você desenvolverá a tela do Google (ou, pelo menos, uma tela semelhante :sweat_smile:). O objetivo é você desenvolver e consolidar seus
-conhecimentos em _HTML_ e _CSS_.
+Neste projeto você desenvolverá 3 telas onde a primeira se trata de um relógio digital, a segunda, um temporizador, e a terceira, um contador Pomodoro. O objetivo deste projeto é de você desenvolver e consolidar seus conhecimentos em _HTML_, _CSS_ e _JS_ na manipulação do DOM, além de praticar a __lógica de programação__.
 
->__Obs.1__: Sinta-se à vontade para desenvolver o projeto bem à sua maneira, com suas características, mas vise sempre manter o código mais limpo e legível
-possível. Mantenha a organização de seus códigos.
+>__Obs.1__: Sinta-se à vontade para desenvolver o projeto bem à sua maneira, com suas características, mas vise sempre manter o código mais limpo e legível possível. Mantenha a organização de seus códigos.
 
->__Obs.2__: Na raiz do projeto há um diretório (pasta) chamada *__base_answer__*. Nesta pasta está um exemplo do projeto pronto desenvolvido por mim. A intenção
-é de você poder ter um lugar para que possa tirar alguma dúvida. Busque não se debruçar em cima do projeto pronto, tente fazer do seu jeito, pesquise quando
-surgir dúvidas, use este exemplo pronto apenas como último recurso.
+>__Obs.2__: Na raiz do projeto há um diretório (pasta) chamada *__base_answer__*. Nesta pasta está um exemplo do projeto pronto desenvolvido por mim. A intenção é de você poder ter um lugar para que possa tirar alguma dúvida. Busque não se debruçar em cima do projeto pronto, tente fazer do seu jeito, pesquise quando surgir dúvidas, use este exemplo pronto apenas como último recurso.
 
 #### Tecnologias a Serem Utilizadas
 
 - __HTML__
 - __CSS__
+- __JavaScript__
 
-Fique à vontade para ir além e utilizar bibliotecas como, por exemplo, _Bootstrap_.
+Fique à vontade para ir além e utilizar bibliotecas como, por exemplo, _Bootstrap_ e o jQuery.
 
 ---
 
@@ -78,7 +74,7 @@ Fique à vontade para ir além e utilizar bibliotecas como, por exemplo, _Bootst
 #### Mantendo Seu Código Versionado
 
 Busque fazer pequenos commits a cada nova funcionalidade do projeto implementada. </br>
-É uma boa prática de mercado o uso de `commits semânticos`. Caso ainda não conheça esta prática pode começar a ler sobre eles <a href='https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657'>aqui</a>
+É uma boa prática de mercado o uso de `commits semânticos`. Caso ainda não conheça esta prática, você pode começar a ler sobre eles <a href='https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657'>aqui</a>
 
 ---
 
@@ -114,7 +110,7 @@ O mais importante aqui é que você saiba como executar estes testes para que po
 Para começar a testar, com seu terminal aberto na raiz do projeto, execute:
 
 ```
-npm run cypress:open
+npm run test:cy
 ```
 
 Aguarde um momento! O Cypress será iniciado (paciência... às vezes demora um pouco mesmo :grimacing:).
@@ -150,7 +146,9 @@ Mas fique à vontade para adicionar novas funcionalidades, adicionar os ícones 
 ---
 
 ## ATENÇÂO!
-#### OS ARQUIVOS `index.html` e `style.css` (para o arquivo .css o nome não importa), DEVERÃO ESTAR NA RAIZ DO PROJETO PARA QUE OS TESTES SEJAM EXECUTADOS. </br> </br>
+#### OS ARQUIVOS `HTML` JÁ ESTÃO CRIADOS, SENDO NECESSÁRIOS QUE VOCÊ APENAS IMPLEMENTE-OS. OS DEMAIS ARQUIVOS NECESSÁRIOS PARA O DESENVOLVIMENTO DO PROJETO PODERÃO SER CRIADOS COM A ESTRUTURA QUE ACHAR MELHOR. </br> </br>
+
+>__Obs__: Lembre-se de que há o projeto pronto dentro da pasta *__base_answer__* de onde você pode tirar dúvida, inclusive, olhar a estrutura de arquivos.
 
 #### Lista de Requisitos
 
