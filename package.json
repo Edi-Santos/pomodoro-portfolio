@@ -4,14 +4,12 @@
   "description": "Este projeto tem a finalidade de ser vir como uma ferramenta para a técnica Pomodoro. Um cronômetro com para o Pomodoro",
   "main": "script.js",
   "scripts": {
-    "test:jest": "jest",
     "test:cy": "cypress open"
   },
   "keywords": [],
   "author": "Edimar dos Santos Resende",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.3.0",
-    "jest": "^28.1.2"
+    "cypress": "^10.3.0"
   }
 }
