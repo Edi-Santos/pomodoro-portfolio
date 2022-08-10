@@ -177,7 +177,8 @@ Mas fique à vontade para adicionar novas funcionalidades, mudar a aparência e 
 
 ### 2 - Crie um Nav dentro do Header
 
-Crie um `<nav />` que possua 3 elementos.
+Crie um `<nav />` que possua 3 elementos. <br>
+Estes elementos devem ser links para navegação entre as páginas.
 
 ##### O que será validado?
 
@@ -190,10 +191,96 @@ Crie um `<nav />` que possua 3 elementos.
 
 - Será validado que seu projeto possui uma TAG `<main />`.
 
-### 4 - Testa se há um um Título na página e um espaço para o Relógio
+### 4 - Crie um Título na página e um espaço para o Relógio
 
 Aqui é necessário um pouco mais de atenção pois a TAG para o título deve ter, exatamente, a classe `class="title"` e a TAG com o relógio deve ter a classe `class="clock"` para que o teste passe.
 
 ##### O que será validado?
+
 - Será validado que seu projeto possui um _título_;
 - Será validado que seu projeto possui um espaço para o _relógio_.
+
+## Tela de Temporizador (timer.html)
+
+### 5 - Crie um Header
+
+##### O que será validado?
+
+- Será validado que seu projeto possui uma TAG `<header />`.
+
+### 6 - Crie um Nav dentro do Header
+
+Crie um `<nav />` que possua 3 elementos. <br>
+Estes elementos devem ser links para navegação entre as páginas.
+
+##### O que será validado?
+
+- Será validado que o `<header />` possui uma TAG `<nav />`;
+- Será validado que a TAG `<nav />` possui 3 elementos.
+
+### 7 - Crie um Main
+
+##### O que será validado?
+
+- Será validado que seu projeto possui uma TAG `<main />`.
+
+### 8 - Crie um Título na página e um espaço para o Temporizador
+
+Assim como na tela anterior, o _título_ deve ter, exatamente, a classe `class="title"` e a TAG com o _temporizador_ deve ter a classe `class="time"`.
+
+##### O que será validado?
+
+- Será validado que seu projeto possui um _título_;
+- Será validado que seu projeto possui um espaço para o _temporizador_.
+
+### 9 - Faça que seja possível adicionar horas, minutos e segundos ao temporizador
+
+Aqui será testado se é possível fazer todas estas ações descritas acima. <br>
+O campo de horas deve ter a classe `class="hh"`, o campo de minutos deve ter a classe `class="mm"` e o campo de segundos deve ter a classe `class="ss"`.
+
+##### O que será validado?
+
+- Será validado que o valor inicial de horas, minutos e segundas é igual a 00 (valor em _String_);
+- Será validado que é possível alterar estes valores.
+
+### 10 - Crie um botão para iniciar a contagem
+
+O botão deve ter a classe `class="start"`.
+
+##### O que será validado?
+
+- Será validado que o botão existe.
+
+### 11 - Faça que o botão se torne funcional
+
+##### O que será validado?
+
+- Será validado que o botão inicia a contagem.
+
+### 12 - Crie um botão para pausar a contagem
+
+O botão deve ter a classe `class="stop"`.
+
+##### O que será validado?
+
+- Será validado que o botão existe.
+
+### 13 - Faça que o botão se torne funcional
+
+##### O que será validado?
+
+- Será validado que o botão pausa a contagem.
+
+### 14 - Crie um botão para zerar a contagem
+
+O botão deve ter a classe `class="back-to-zero"`.
+
+##### O que será validado?
+
+- Será validado que o botão existe.
+
+### 15 - Faça que o botão se torne funcional
+
+##### O que será validado?
+
+- Será validado que o botão zera o valor do campo de horas, minutos e segundos.
