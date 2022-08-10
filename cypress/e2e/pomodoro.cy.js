@@ -14,7 +14,7 @@ const CLASS_RESTART = '.restart';
 
 describe('Testa página Pomodoro', () => {
   before(() => {
-    cy.visit('http://127.0.0.1:5500/pages/pomodoro/pomodoro.html')
+    cy.visit('../../pages/pomodoro/pomodoro.html')
   });
 
   it('16 - testa se há um <header />', () => {
