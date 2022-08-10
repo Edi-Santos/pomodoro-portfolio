@@ -117,17 +117,29 @@ Aguarde um momento! O Cypress será iniciado (paciência... às vezes demora um 
 
 Após a inicialização do Cypress abrirá a seguinte tela:
 
-><img src='./img_readme/cypress-tela_testes.png' alt='Tela inicial do Cypress'/> </br>
+><img src='./img_readme/cypress-tela_inicial.png' alt='Tela inicial do Cypress'/> </br>
 
-Veja que temos 1 arquivo de testes chamado *__my_google.spec.js__*. Clique neste arquivo de testes.
+Escolha a opção `E2E Testing`, pois é esta que está configurada e com testes feitos.<br>
+Em seguida, abrirá a seguinte tela:
 
-><img src='./img_readme/cypress-tela_executando_testes.png' alt='Tela de execução dos testes' /> </br>
+><img src='./img_readme/cypress-tela_escolha_execucao.png'>
 
-A tela mostrada acima é a tela que abrirá executando todos os testes presentes no arquivo *__my_google.spec.js__*
+Escolha alguma das 3 opções. A que você escolher será onde abrirá os testes do _Cypress_ e executará os testes.
+Após selecionar a opção e clicar em `Start E2E Testing in ...`, abrirá a seguinte tela:
 
-Caso abrir o teste seja a primeira coisa que você faça, abrirá exatamente esta tela mostrada no print acima, pois o _Cypress_ não conseguirá encontrar o arquivo a ser testado (index.html).
+><img src='./img_readme/cypress-tela_testes.png'>
 
-><img src='./img_readme/cypress-tela_executando_teste_passando.png' alt='Tela de execução dos testes com 1 teste passando' /> </br>
+>__Obs__: Estarei utilizando a opção _Chrome_. 
+
+Veja que temos 3 arquivos de testes. Escolha um arquivo de teste para que o _Cypress_ abra-o e execute-o.
+
+><img src='./img_readme/cypress-tela_executando_testes.png'> <br>
+
+A tela mostrada acima é a tela que abrirá executando todos os testes presentes no arquivo *__index.cy.js__*
+
+Caso abrir o teste seja a primeira coisa que você faça, abrirá exatamente a tela mostrada no print abaixo.
+
+><img src='./img_readme/cypress-tela_executando_teste_falhando.png'> <br>
 
 Conforme você for cumprindo cada requisito, você vai ganhando um *__check__* verde indicando o seu avanço.
 
@@ -137,11 +149,13 @@ Conforme você for cumprindo cada requisito, você vai ganhando um *__check__* v
 
 Faça com calma e atenção. Muito importante a __organização__ de seus códigos.
 
-Ao concluir o projeto, ele deverá estar semelhante ao seguinte print:
+Ao concluir o projeto, ele deverá estar semelhante ao seguinte:
 
-><img src='./img_readme/projeto-finalizado.png' alt='Exemplo de projeto concluído'> </br>
+><img src='./img_readme/projeto-finalizado-1.png'>
+><img src='./img_readme/projeto-finalizado-2.png'>
+><img src='./img_readme/projeto-finalizado-3.png'>
 
-Mas fique à vontade para adicionar novas funcionalidades, adicionar os ícones de dentro do `<input />`, dentre outras coisas. A imagem acima é apenas um exemplo (o resultado do código da pasta _base_answer_)
+Mas fique à vontade para adicionar novas funcionalidades, mudar a aparência e demais mudanças. As imagens acima são apenas exemplos (o resultado do código da pasta _base_answer_)
 
 ---
 
