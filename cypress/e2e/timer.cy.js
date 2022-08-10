@@ -1,3 +1,5 @@
+/// <reference types='cypress'/>
+
 const HEADER = 'header';
 const HEADER_NAV = 'header nav';
 const MAIN = 'main';
@@ -8,8 +10,11 @@ const CLASS_STOP = '.stop';
 const CLASS_BACK_TO_ZERO = '.back-to-zero';
 
 describe('Testando página de Temporizador', () => {
-  it('5 - testa se há um <header />', () => {
+  before(() => {
     cy.visit('../../pages/timer/timer.html');
+  });
+
+  it('5 - testa se há um <header />', () => {
     cy.get(HEADER).should('exist');
   })
 
