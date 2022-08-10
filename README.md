@@ -21,7 +21,8 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
      - [Lista de Requisitos](#lista-de-requisitos)
        - [1 - Crie um Header](#1---crie-um-header)
        - [2 - Crie um Nav dentro do Header](#2---crie-um-nav-dentro-do-header)
-       - [3 - Crie um Footer](#3---crie-um-footer)
+       - [3 - Crie um Main](#3---crie-um-main)
+       - [4 - Testa se há um um Título na página e um espaço para o Relógio](#4---testa-se-há-um-um-título-na-página-e-um-espaço-para-o-relógio)
    - [Considerações Finais](#considerações-finais)
 ---
 
