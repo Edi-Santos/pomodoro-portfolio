@@ -160,7 +160,7 @@ Mas fique à vontade para adicionar novas funcionalidades, mudar a aparência e 
 ---
 
 ## ATENÇÂO!
-#### OS ARQUIVOS `HTML` JÁ ESTÃO CRIADOS, SENDO NECESSÁRIOS QUE VOCÊ APENAS IMPLEMENTE-OS. OS DEMAIS ARQUIVOS NECESSÁRIOS PARA O DESENVOLVIMENTO DO PROJETO PODERÃO SER CRIADOS COM A ESTRUTURA QUE ACHAR MELHOR. </br> </br>
+#### OS ARQUIVOS `HTML` JÁ ESTÃO CRIADOS, SENDO NECESSÁRIO QUE VOCÊ, APENAS, IMPLEMENTE-OS. OS DEMAIS ARQUIVOS NECESSÁRIOS PARA O DESENVOLVIMENTO DO PROJETO PODERÃO SER CRIADOS COM A ESTRUTURA QUE ACHAR MELHOR. </br> </br>
 
 >__Obs__: Lembre-se de que há o projeto pronto dentro da pasta *__base_answer__* de onde você pode tirar dúvida, inclusive, olhar a estrutura de arquivos.
 
