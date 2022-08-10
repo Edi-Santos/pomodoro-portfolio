@@ -20,7 +20,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
   - [Requisitos do Projeto](#requisitos-do-projeto)
      - [Lista de Requisitos](#lista-de-requisitos)
        - [1 - Crie um Header](#1---crie-um-header)
-       - [2 - Crie um Main](#2---crie-um-main)
+       - [2 - Crie um Nav dentro do Header](#2---crie-um-nav-dentro-do-header)
        - [3 - Crie um Footer](#3---crie-um-footer)
    - [Considerações Finais](#considerações-finais)
 ---
@@ -166,61 +166,33 @@ Mas fique à vontade para adicionar novas funcionalidades, mudar a aparência e 
 
 #### Lista de Requisitos
 
-### 1 - Crie um `<header />`
+## Tela de Relógio (index.html)
 
-Crie um `<header />` que possua 4 elementos.
-
-##### O que será testado/validado?
-
-- Será validado que seu projeto possui uma TAG `<header />`;
-- Será validado que a TAG `<header />` possui 4 elementos.
-
-### 2 - Crie um `<main />`
-
-Crie um `<main />` que possua 3 elementos sendo eles uma imagem, um input do tipo texto e uma TAG `<section />`. A TAG `<section />`, por sua vez, deve possuir mais 2 elementos.
+### 1 - Crie um Header
 
 ##### O que será validado?
 
-- Será validado que seu projeto possui uma TAG `<main />`;
-- Será validado que a TAG `<main />` possui 3 elementos;
-- Será validado que um destes 3 elementos é uma `<section />`;
-- Será validado que a TAG `<section />` possui 2 elementos.
+- Será validado que seu projeto possui uma TAG `<header />`.
 
-### 3 - Crie um `<footer />`
+### 2 - Crie um Nav dentro do Header
 
-Este requisito é mais extenso e confuso, por conta disto, estarei "dividindo em 3 partes"
-
->Este requisito é um pouco mais complexo devido a quantidade de informações. Leia-o com calma e atenção. Se necessário, envie suas dúvidas em nosso Discord para que possamos esclarecer com mais tranquilidade.
-
-#### 3.1 - Crie um `<footer />` que possua 1 elemento `<section />`
-
-#### 3.2 - Esta `<section />`, por sua vez, deve possuir 2 elementos.
-
-#### 3.3 - O segundo elemento desta `<section />` deve possuir, exatamente, a classe `footer-links` (`class="footer-links"`) que deve possuir 2 elementos filhos.
-
-#### 3.4 - O primeiro elemento filho do elemento com a classe `footer-links` deve possuir o atributo `id="links-for-google"`. Este elemento deve possuir, também, 4 elementos filhos.
-
-#### 3.5 - O segundo elemento filho do elemento com a classe `footer-links` deve possuir o atributo `id="links-for-you"`. Este elemento deve possuir, também, 3 elementos filhos.
+Crie um `<nav />` que possua 3 elementos.
 
 ##### O que será validado?
 
-- Será validado que seu projeto possui uma TAG `<footer />`;
-- Será validado que a TAG `<footer />` possui 1 elemento e que este seja uma TAG `<section />`;
-- Será validado que a TAG `<section />` possui 2 elementos;
-- Será validado que o segundo elemento da TAG `<section />` possui o atributo `class="footer-links"` e 2 elementos filhos;
-- Será validado que o primeiro elemento filho do elemento com a classe `footer-links` possui o atributo `id="footer-links"` e 4 elementos filhos;
-- Será validado que o segundo elemento filho do elemento com a classe `footer-links` possui o atributo `id="links-for-you"` e 3 elementos filhos.
+- Será validado que o `<header />` possui uma TAG `<nav />`;
+- Será validado que a TAG `<nav />` possui 3 elementos.
 
----
+### 3 - Crie um Main
 
-### Considerações Finais
+##### O que será validado?
 
-Parabéns por chegar até aqui e concluir este que é o primeiro projeto de muitos que ainda virão por aí!!!
+- Será validado que seu projeto possui uma TAG `<main />`.
 
-<img src="./img_readme/the-office-steve-carell_congratulations.gif">
+### 4 - Testa se há um um Título na página e um espaço para o Relógio
 
-## Muito obrigado pelo seu voto de confiança!
+Aqui é necessário um pouco mais de atenção pois a TAG para o título deve ter, exatamente, a classe `class="title"` e a TAG com o relógio deve ter a classe `class="clock"` para que o teste passe.
 
-Acesse o nosso grupo do Discord para se manter atualizado com relação a novos projetos, interagir comigo e com outras pessoas, tirar suas dúvidas e ajudar outros colegas.
-
-Link para o Discord: https://discord.gg/KN4uxuaYg6
+##### O que será validado?
+- Será validado que seu projeto possui um _título_;
+- Será validado que seu projeto possui um espaço para o _relógio_.
