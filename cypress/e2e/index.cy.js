@@ -1,3 +1,5 @@
+/// <reference types='cypress'/>
+
 const HEADER = 'header';
 const HEADER_NAV = 'header nav';
 const MAIN = 'main';
@@ -5,8 +7,11 @@ const CLASS_TITLE = '.title';
 const CLASS_CLOCK = '.clock';
 
 describe('Testando página de Relógio', () => {
-  it('1 - testa se há um <header />', () => {
+  before(() => {
     cy.visit('../../pages/index/');
+  });
+
+  it('1 - testa se há um <header />', () => {
     cy.get(HEADER).should('exist');
   });
 
