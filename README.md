@@ -297,3 +297,82 @@ O botão deve ter a classe `class="back-to-zero"`.
 ##### O que será validado?
 
 - Será validado que o botão zera o valor do campo de horas, minutos e segundos.
+
+## Tela Pomodoro (timer.html)
+
+### 16 - Crie um Header
+
+##### O que será validado?
+
+- Será validado que a tela Pomodoro possui uma TAG `<header />`.
+
+### 17 - Crie um Nav dentro do Header
+
+Crie um `<nav />` que possua 3 elementos. <br>
+Estes elementos devem ser links para navegação entre as telas.
+
+##### O que será validado?
+
+- Será validado que o `<header />` possui uma TAG `<nav />`;
+- Será validado que a TAG `<nav />` possui 3 elementos.
+
+### 18 - Crie um Main
+
+##### O que será validado?
+
+- Será validado que a tela Pomodoro possui uma TAG `<main />`.
+
+### 19 - Crie um Título na página
+
+Assim como na tela anterior, o _título_ deve ter, exatamente, a classe `class="title"`.
+
+##### O que será validado?
+
+- Será validado que seu projeto possui um _título_;
+
+### 20 - Crie um subtítulo e espaço para a contagem do tempo (_TRABALHO_)
+
+O subtítulo é para informar se a contagem é referente ao tempo dedicado ao trabalho ou ao descanso. <br>
+O subtítulo deve ter, exatamente, a classe `class="work-timer-title"` com o texto `TRABALHO`. E a contagem do tempo deve ser iniciada em _25:00_ (valor em String). O espaço para a contagem deve ter a classe `class="work-timer"` para que os testes sejam realizados.
+
+##### O que será validado?
+
+- Será validado que há um subtítulo com o texto `TRABALHO`;
+- Será validado que a contagem inicia em _25:00_.
+
+### 21 - Crie um subtítulo e espaço para a contagem do tempo (_DESCANSO_)
+
+O subtítulo deve ter, exatamente, a classe `class="rest-timer-title"` sem valor inicial. O espaço para a contagem deve ter a classe `class="rest-timer"` para que os testes sejam realizados. Este também deve estar sem um valor inicial. <br>
+Estes valores devem ser acresentados ao iniciar o tempo de descanso.
+
+##### O que será validado?
+
+- Será validado que há um subtítulo com o valor vazio;
+- Será validado que a contagem está com o valor vazio.
+
+### 22 - Crie um botão para iniciar a contagem
+
+O botão deve ter a classe `class="start"`.
+
+##### O que será validado?
+
+- Será validado que o botão existe;
+- Será validado que o botão inicia a contagem.
+
+### 23 - Crie um botão para pausar a contagem
+
+O botão deve ter a classe `class="stop"`.
+
+##### O que será validado?
+
+- Será validado que o botão existe;
+- Será validado que o botão pausa a contagem.
+
+### 24 - Crie um botão para reiniciar a contagem
+
+O botão deve ter a classe `class="restart"`.
+
+##### O que será validado?
+
+- Será validado que o botão existe;
+- Será validado que o botão reinicia a contagem.
