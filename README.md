@@ -196,12 +196,13 @@ Mas fique à vontade para adicionar novas funcionalidades, mudar a aparência e 
 
 ##### O que será validado?
 
-- Será validado que seu projeto possui uma TAG `<header />`.
+- Será validado que a tela Relógio possui uma TAG `<header />`.
+
 
 ### 2 - Crie um Nav dentro do Header
 
 Crie um `<nav />` que possua 3 elementos. <br>
-Estes elementos devem ser links para navegação entre as páginas.
+Estes elementos devem ser links para navegação entre as telas.
 
 ##### O que será validado?
 
@@ -229,12 +230,13 @@ Aqui é necessário um pouco mais de atenção pois a TAG para o título deve te
 
 ##### O que será validado?
 
-- Será validado que seu projeto possui uma TAG `<header />`.
+- Será validado que a tela Temporizador possui uma TAG `<header />`.
+
 
 ### 6 - Crie um Nav dentro do Header
 
 Crie um `<nav />` que possua 3 elementos. <br>
-Estes elementos devem ser links para navegação entre as páginas.
+Estes elementos devem ser links para navegação entre as telas.
 
 ##### O que será validado?
 
