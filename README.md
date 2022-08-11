@@ -36,6 +36,16 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
          - [13 - Faça que o botão se torne funcional](#13---faça-que-o-botão-se-torne-funcional)
          - [14 - Crie um botão para zerar a contagem](#14---crie-um-botão-para-zerar-a-contagem)
          - [15 - Faça que o botão se torne funcional](#15---faça-que-o-botão-se-torne-funcional)
+       - [Tela Pomodoro (pomodoro.html)](#tela-pomodoro-pomodorohtml)
+         - [16 - Crie um Header](#16---crie-um-header)
+         - [17 - Crie um Nav dentro do Header](#17---crie-um-nav-dentro-do-header)
+         - [18 - Crie um Main](#18---crie-um-main)
+         - [19 - Crie um Título na página](#19---crie-um-título-na-página)
+         - [20 - Crie um subtítulo e espaço para a contagem do tempo (_TRABALHO_)](#20---crie-um-subtítulo-e-espaço-para-a-contagem-do-tempo-trabalho)
+         - [21 - Crie um subtítulo e espaço para a contagem do tempo (_DESCANSO_)](#21---crie-um-subtítulo-e-espaço-para-a-contagem-do-tempo-descanso)
+         - [22 - Crie um botão para iniciar a contagem](#22---crie-um-botão-para-iniciar-a-contagem)
+         - [23 - Crie um botão para pausar a contagem](#23---crie-um-botão-para-pausar-a-contagem)
+         - [24 - Crie um botão para reiniciar a contagem](#24---crie-um-botão-para-reiniciar-a-contagem)
       - [Considerações Finais](#considerações-finais)
 ---
 
@@ -298,7 +308,7 @@ O botão deve ter a classe `class="back-to-zero"`.
 
 - Será validado que o botão zera o valor do campo de horas, minutos e segundos.
 
-## Tela Pomodoro (timer.html)
+## Tela Pomodoro (pomodoro.html)
 
 ### 16 - Crie um Header
 
